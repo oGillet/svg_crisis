@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "POIs_SVG",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 1, "desc": "UWI SRC" }, "geometry": { "type": "Point", "coordinates": [ -61.404529357540795, 10.656766148870759 ] } },
+{ "type": "Feature", "properties": { "id": 2, "desc": "volcano" }, "geometry": { "type": "Point", "coordinates": [ -61.179055169238687, 13.340828087890021 ] } },
+{ "type": "Feature", "properties": { "id": 3, "desc": "observatory" }, "geometry": { "type": "Point", "coordinates": [ -61.227690623280232, 13.26778167984433 ] } }
+]
+}
