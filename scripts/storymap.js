@@ -493,23 +493,3 @@ $(window).on('load', function() {
   }
 
 });
-
-
-function getColor(d) {
-    return d = 1 ? '#d35400 ' :
-           d = 0.75  ? '#e67e22 ' :
-           d = 0.5  ? '#f1c40f' :
-           d = 0.25  ? '#27ae60 ' :
-}
-
-
-function style(feature) {
-    return {
-        fillColor: getColor(feature.properties.Name),
-        weight: 2,
-        opacity: 0.1,
-        color: 'white',
-        dashArray: '3',
-        fillOpacity: 0.7
-    };
-}
